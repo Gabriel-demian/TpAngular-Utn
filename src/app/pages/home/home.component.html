@@ -1,0 +1,6 @@
+<h2>Nuestros Productos</h2>
+<br>
+<mat-grid-list cols="2" rowHeight="2:1" *ngFor="let producto of productos_async | async">
+    <app-producto [data]="producto"></app-producto>
+    <br>
+</mat-grid-list>

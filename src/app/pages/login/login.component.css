@@ -1,0 +1,19 @@
+.error{
+    background-color: red;
+}
+
+.warning{
+    background-color: yellow;
+}
+
+.center {
+    width: 40%;
+    height : 40%;
+    min-height: 20vh;
+    margin:auto;
+    text-align: center;
+    vertical-align: center;
+    background-color: #F3F3F3;
+
+    padding: 20px;
+}
